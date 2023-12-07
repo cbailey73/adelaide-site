@@ -26,6 +26,13 @@ function createVideoElement(src) {
     videoElement.setAttribute('frameborder', '0');
     videoElement.setAttribute('allowfullscreen', 'true');
 
+    // Listen for the "play" event and pause the carousel auto-scrolling
+    videoElement.addEventListener('play', () => {
+        const videoCarousel = document.querySelector('#video-carousel');
+        const carouselInstance = new bootstrap.Carousel(videoCarousel);
+        carouselInstance.pause();
+    });
+
     return videoElement;
 }
 
