@@ -1,0 +1,49 @@
+main {
+    background-color: #f8f9fa;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: left;
+}
+
+#contact-info {
+    justify-content: flex-start;
+}
+
+#video-container, #picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-card {
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header {
+    width: 100%;
+}
+
+.carousel, .carousel-inner, .carousel-item, .carousel-item-active {
+    justify-content: center;
+    align-items: center;
+}
+
+.media {
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+

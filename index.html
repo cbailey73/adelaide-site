@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adelaide's Adoption Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./test.css">
+</head>
+
+<body>
+
+<header class="m-0">
+    <h1 class="navbar bg-primary text-white text-center">Adelaide's Adoption Page</h1>
+</header>
+
+<main>
+    <div class="container">
+    
+        <!-- Quick list with icons -->
+        <div class="text-center">
+            <p class="mt-0"><strong>About Adelaide:</strong></p>
+            <ul class="list-unstyled">
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle text-success" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 8 8A8.002 8.002 0 0 0 8 0zM7 11a1 1 0 0 1 1-1h.001a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1zM8 3a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1z"/>
+                    </svg> Spayed
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle text-success" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 8 8A8.002 8.002 0 0 0 8 0zM7 11a1 1 0 0 1 1-1h.001a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1zM8 3a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1z"/>
+                    </svg> Vaccinated
+                </li>
+            </ul>
+        </div>
+    
+        <!-- Bootstrap Card for Personality Description -->
+        <div class="card mt-4">
+            <div class="card-header bg-info text-white">
+                Personality
+            </div>
+            <div class="card-body">
+                <p class="card-text">Adelaide is one of the most gentle and affectionate cats you could ever meet. She likes every human she meets,
+                     and will be quick to purr loudly when you pet her. Please give this sweet kitty a chance to find a loving home!</p>
+            </div>
+        </div>
+
+        <!-- Bootstrap Card for Phone number and Email -->
+        <div class="card mt-4">
+            <div class="card-header bg-info text-white">
+                Contact Info
+            </div>
+            <div class="card-body" id="contact-info">
+                <p class="mb-0 ml-0 card-text"><strong>Phone:</strong> <a href="tel:+18326409770">(832) 640-9770</a></p>
+                <p class="mb-0 ml-0 card-text"><strong>Email:</strong> <a href="mailto:c73bailey@gmail.com">c73bailey@gmail.com</a> </p>
+
+            </div>
+        </div>
+
+        <!-- Bootstrap Card for Videos -->
+        <div class="card mt-4 slide-card">
+            <div class="card-header">
+                Videos
+            </div>
+            <div class="card-body ml-1 mr-1 p-1" id="video-container">
+                <div id="video-carousel" class="carousel slide card-img" data-ride="carousel">
+                    <div class="carousel-inner"></div>
+                    <a class="carousel-control-prev" href="#video-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#video-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap Card for Pictures -->
+        <div class="card mt-4 slide-card">
+            <div class="card-header">
+                Photos
+            </div>
+            <div class="card-body ml-1 mr-1 p-1" id="picture-container">
+                <div id="picture-carousel" class="carousel slide card-img" data-ride="carousel">
+                    <div class="carousel-inner"></div>
+                    <a class="carousel-control-prev" href="#picture-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#picture-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="./test.js"></script>
+
+</body>
+</html>
+
