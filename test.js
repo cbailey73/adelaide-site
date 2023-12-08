@@ -62,6 +62,10 @@ function createVideoCarouselItem(src, isActive) {
     return item;
 }
 
+// Set data-bs-interval attribute to false to stop automatic cycling
+const videoCarouselElement = document.querySelector('#video-carousel');
+videoCarouselElement.setAttribute('data-bs-interval', 'false');
+
 // Function to create picture carousel items
 function createPictureCarouselItem(src, isActive) {
     const item = document.createElement('div');
